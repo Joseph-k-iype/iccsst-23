@@ -1,4 +1,4 @@
-#Contains a static website based on the conference icsat
+# Contains a static website based on the conference icsat
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
