@@ -6,6 +6,11 @@
 .christ-blue {
   color: #183276;
 }
+@media (max-width: 400px) {
+  .media-query{
+    display: none;
+  }
+}
 
 .nk-btn {
   letter-spacing: .05rem;

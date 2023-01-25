@@ -55,7 +55,7 @@ export default function CallForPapers() {
         </div>
 
         <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
-          <img className="m-0 w-100 justify-content-end" src={i1} alt="..." />
+          <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." />
         </div>
 
         <div className="row m-0 p-0 ">

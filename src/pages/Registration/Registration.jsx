@@ -34,7 +34,29 @@ export default function Registration() {
                 </div>
 
                 <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
-                    <img className="m-0 w-100 justify-content-end" src={i1} alt="..." />
+                    <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." />
+                </div>
+            </div>
+
+            <div className="container-fluid">
+                <div className="row m-0 p-0">
+                    <div className="col-6 m-0 p-4">
+                        <h2>Registration Fee</h2>
+                        <ul>
+                            <li>Paper Presenters - $100</li>
+                            <li>Attendees - $14</li>
+                            <li>UG/PG/PhD Scholar - $7</li>
+                        </ul>
+                    </div>
+                    <div className="col-6 m-0 p-4">
+                        <h2>Registration fee includes</h2>
+                        <ul>
+                            <li>Participation in all sessions of the conference</li>
+                            <li>Hardcopy of Conference Proceedings</li>
+                            <li>Lunch and Refreshment</li>
+                            <li>Paper presentation certificate</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -44,11 +66,13 @@ export default function Registration() {
                         <div className="col-md-6 col-12 m-0 p-4 h-100">
                             <h3>Paper Submission Templates</h3>
                             <p style={{ fontFamily: "Nunito" }}>
-                            Will be updated shortly.
+                                Applied and awaiting for Springer's confirmation <br />
+                                Will be updated shortly.
                                 {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
                                 <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
                             </p>
                         </div>
+
                         <div className="col-md-6 col-12 m-0 p-4  h-100 " id="subscribe">
                             <h3> Submit your details for further updates regarding the Conference</h3>
 

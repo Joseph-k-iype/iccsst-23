@@ -73,38 +73,38 @@ export default function Committees() {
       college: "Modern College of Business and Science",
       chair: "",
     },
-    
+
     {
       name: "Dr Chandra J ",
       desg: "",
       college: "CHRIST (Deemed to be University)",
       chair: "Conference Chair",
-    }, 
+    },
     {
       name: "Dr Basant Kumar ",
       desg: "",
       college: "Modern College of Business and Science",
       chair: "",
-    }, 
+    },
     {
       name: "Dr Shoney Sebastian",
       desg: "",
       college: "CHRIST (Deemed to be University)",
       chair: "",
-    }, 
+    },
     {
       name: "Dr Beaulah Soundarabai",
       desg: "",
       college: "CHRIST (Deemed to be University)",
       chair: "",
-    }, 
+    },
     {
       name: "Dr Manjunath Hiremath",
       desg: "",
       college: "CHRIST (Deemed to be University)",
       chair: "",
-    }, 
-    
+    },
+
   ];
 
   let os = [
@@ -121,7 +121,7 @@ export default function Committees() {
       chair: "",
     },
   ];
-  
+
 
   let conv = [
     {
@@ -227,7 +227,7 @@ export default function Committees() {
       college: "CHRIST (Deemed to be University)",
       chair: "",
     },
-   
+
   ];
 
   let fc = [
@@ -260,37 +260,49 @@ export default function Committees() {
 
   let wd = [
     {
-      name:"Dr Cecil Donald A",
+      name: "Dr Cecil Donald A",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
       chair: "Chair",
     },
     {
-      name:"Joseph K Iype",
+      name: "Joseph K Iype",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
       chair: "",
     },
     {
-      name:"Ashwin Kumar",
+      name: "Ashwin Kumar",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
       chair: "",
     },
     {
-      name:"Nikit Khakholia",
+      name: "Nikit Khakholia",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
       chair: "",
     },
     {
-      name:"S Akshaya",
+      name: "S Akshaya",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
       chair: "",
     },
     {
-      name:"Meghana M",
+      name: "Meghana M",
+      desg: "Department of Computer Science",
+      college: "CHRIST (Deemed to be University)",
+      chair: "",
+    },
+    {
+      name: "Andriya Zenith C P",
+      desg: "Department of Computer Science",
+      college: "CHRIST (Deemed to be University)",
+      chair: "",
+    },
+    {
+      name: "Sachin U Krishna ",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
       chair: "",
@@ -304,7 +316,7 @@ export default function Committees() {
             <h1 className="p-2">COMMITTEES</h1>
           </div>
           <div className="col-md-6 col-12 text-end">
-            <img src={i1} className="img-fluid pt-4" alt="..." />
+            <img src={i1} className="img-fluid pt-4 media-query" alt="..." />
           </div>
           <div className="row m-0 p-4">
             <div className="col m-0 p-0">
@@ -350,7 +362,7 @@ export default function Committees() {
                 })}
               </div>
 
-              
+
 
               <h2 className="p-2">Communication / Publicity Committee</h2>
               <div className="row m-0 px-0 justify-content-center">
@@ -404,7 +416,7 @@ export default function Committees() {
                   );
                 })}
               </div>
-              
+
             </div>
           </div>
         </div>
