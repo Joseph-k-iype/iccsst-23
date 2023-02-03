@@ -42,10 +42,15 @@ export default function Registration() {
                 <div className="row m-0 p-0">
                     <div className="col-6 m-0 p-4">
                         <h2>Registration Fee</h2>
+                        <b><h4>Paper Presenters</h4></b>
                         <ul>
-                            <li>Paper Presenters - $100</li>
-                            <li>Attendees - $14</li>
-                            <li>UG/PG/PhD Scholar - $7</li>
+                            <li>Academicians and Industry Persons - ₹3500 (Indian Authors) / $60 (International Authors)</li>
+
+                        </ul>
+                        <b><h4>Attendees</h4></b>
+                        <ul>
+                            <li>PhD Scholars - ₹1000 / $14</li>
+                            <li>UG/PG - ₹500 / $7</li>
                         </ul>
                     </div>
                     <div className="col-6 m-0 p-4">
@@ -64,20 +69,11 @@ export default function Registration() {
                 <div className="col-md-12 col-12 m-0 p-0">
                     <div className="row m-0 p-0">
                         <div className="col-md-6 col-12 m-0 p-4 h-100">
-                            <h3>Paper Submission Templates</h3>
-                            <p style={{ fontFamily: "Nunito" }}>
-                                Applied and awaiting for Springer's confirmation <br />
-                                Will be updated shortly.
-                                <br /><br />
-                                Submission should not exceed 8 to 13 pages <br />
-                                Based on the recommendation of reviewers the paper will be published in UGC/Springer's CCIS (SCOPUS indexed)
-                                {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
-                                <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
-                            </p>
+
                         </div>
 
-                        <div className="col-md-6 col-12 m-0 p-4  h-100 " id="subscribe">
-                            <h3> Submit your details for further updates regarding the Conference</h3>
+                        <div className="col-md-12 col-12 m-0 p-4  h-100 justify-content-center align-items-center text-center" id="subscribe">
+                            <h3 className="justify-content-center align-items-center text-center"> Submit your details for further updates regarding the Conference</h3>
 
 
                             <div class="row  g-3  justify-content-center text-center mt-4">

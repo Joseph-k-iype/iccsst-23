@@ -19,7 +19,7 @@ export default function CallForPapers() {
   return (
     <>
       <div className="row m-3 p-2 mt-5 align-items-center " id="mainpage">
-        <div className="col-md-7  mt-5  col-12 m-0 p-0">
+        <div className="col-md-12  mt-5  col-12 m-0 p-0">
           <div>
             <br />
             <br />
@@ -48,28 +48,40 @@ export default function CallForPapers() {
               business and industry panels, and technological exhibits.
               <br />
               <br />
-              The main aim is to provide recent developments in the field of Artificial intelligence and Machine learning but is not limited to IOT, Cloud, Data Science, Image Processing.
-
+              The objective of this Conference is to provide opportunities for collaboration and reflection enhancing the ability of applying Information Technology for sustainability. This Conference provide a unique forum for the academicians, researchers, technocrats and industry experts to exchange ideas and experience on research problems of recent advancements in the field of Computer Science.
             </p>
+
           </div>
         </div>
 
-        <div className="col-md-5 col-12 m-0 p-0 bg-white h-100 ">
-          <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." />
+        <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
+          {/* <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." /> */}
+          <h3>Paper Submission Templates</h3>
+          <p style={{ fontFamily: "Nunito" }}>
+            Submission should not exceed 8 to 13 pages <br />
+                                Based on the recommendation of reviewers the paper will be published in UGC/Springer's CCIS (SCOPUS indexed)
+                                {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
+                                <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
+          </p>
+          <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
+            <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}>
+
+              {/* <div
+              className="nk-blue-bg p-3 justify-content-center align-items-center nk-btn"
+              style={{ fontFamily: "Nunito" }}
+
+            > */}
+               Download Template
+              {/* </div> */}
+            </a>
+          </button>
         </div>
 
         <div className="row m-0 p-0 ">
           <div className="col-7  p-0 "></div>
           <div className="col-md-3  w-40  p-0 mt-3">
             <div className=" text-center border-0 m-0 p-0">
-              <a href="#register" style={{ textDecoration: "none", color: "white" }}>
-                <div
-                  className="nk-blue-bg p-3 px-5 nk-btn"
-                  style={{ fontFamily: "Nunito" }}
 
-                >
-                  Register Now
-              </div></a>
             </div>
           </div>
         </div>
