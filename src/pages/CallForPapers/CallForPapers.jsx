@@ -39,15 +39,15 @@ export default function CallForPapers() {
               and panels from prominent research, industry and government
               leaders, business and industry panels, and technological exhibits. */}
 
-              The First International Conference on Computational Science and Sustainable 
-              Technologies (ICCSST 2023) will be held parallelly at CHRIST (Deemed to be University), 
-              Bangalore, India, and Modern College of Business and Science, Muscat, Oman. 
-              The technical program comprises many symposia and a variety of tutorials and workshops. 
+              The First International Conference on Computational Science and Sustainable
+              Technologies (ICCSST 2023) will be held parallelly at CHRIST (Deemed to be University),
+              Bangalore, India, and Modern College of Business and Science, Muscat, Oman.
+              The technical program comprises many symposia and a variety of tutorials and workshops.
               ICCSST 2023 will also include an attractive industry program aimed at practitioners,
-              with keynotes and panels from prominent research, industry, and government leaders, 
+              with keynotes and panels from prominent research, industry, and government leaders,
               business and industry panels, and technological exhibits.
-              <br/>
-              <br/>
+              <br />
+              <br />
               The main aim is to provide recent developments in the field of Artificial intelligence and Machine learning but is not limited to IOT, Cloud, Data Science, Image Processing.
 
             </p>
@@ -62,13 +62,13 @@ export default function CallForPapers() {
           <div className="col-7  p-0 "></div>
           <div className="col-md-3  w-40  p-0 mt-3">
             <div className=" text-center border-0 m-0 p-0">
-            <a href="#register" style={{textDecoration:"none",color:"white"}}>
-              <div
-                className="nk-blue-bg p-3 px-5 nk-btn"
-                style={{ fontFamily: "Nunito" }}
-                
-              >
-               Register Now
+              <a href="#register" style={{ textDecoration: "none", color: "white" }}>
+                <div
+                  className="nk-blue-bg p-3 px-5 nk-btn"
+                  style={{ fontFamily: "Nunito" }}
+
+                >
+                  Register Now
               </div></a>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function CallForPapers() {
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4">20 February 2023</h5>
+              <h5 className="mt-4">27 February 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
@@ -441,7 +441,7 @@ export default function CallForPapers() {
                   }
                   formData.set("Name", name);
                   formData.set("Email", email);
-                  document.getElementById('subscribe').innerHTML="<h2>Sending...</h2>"
+                  document.getElementById('subscribe').innerHTML = "<h2>Sending...</h2>"
                   return fetch(
                     `https://script.google.com/macros/s/AKfycbzE0KZCrl_HVQvWSakbF5I1i-s46eo2tyAPIsC8yMtZnOf28-spRys5Tlwbjig1wbwD/exec`,
                     {
@@ -453,7 +453,7 @@ export default function CallForPapers() {
                     }
                   )
                     .then((response) => {
-                      document.getElementById('subscribe').innerHTML="<h2>Thankyou for subscribing.</h2>"
+                      document.getElementById('subscribe').innerHTML = "<h2>Thankyou for subscribing.</h2>"
 
                     })
                     .catch((err) => console.log(err));

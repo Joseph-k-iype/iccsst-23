@@ -74,7 +74,7 @@ export default function Home() {
         // style={{ display: "inline", alignContent: "flex-start" }}
         >
           <div className="col">
-          <img
+            <img
               src={oman}
               alt="Christ (Deemed to be) University Logo"
               width="208"
@@ -95,15 +95,15 @@ export default function Home() {
         <div className="col-12 mt-5">
           <h1
             className="font-weight-bold"
-            style={{ fontFamily: "Arial",fontSize:"1.3rem" }}
+            style={{ fontFamily: "Arial", fontSize: "1.3rem" }}
           >
             ICCSST - 2023 <br />
-            <div style={{ marginTop:"1rem" }}>
-          <span style={{ fontWeight:"600",fontSize:"1.7rem",marginTop:"1rem" }}>INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
+            <div style={{ marginTop: "1rem" }}>
+              <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem" }}>INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
             AND SUSTAINABLE TECHNOLOGIES</span></div>
           </h1>
-          <div style={{ marginTop:"1rem" }}>
-          <h3  style={{ fontFamily: "Arial",fontSize:"1.2rem" }}>SULTANATE OF OMAN | REPUBLIC OF INDIA</h3>
+          <div style={{ marginTop: "1rem" }}>
+            <h3 style={{ fontFamily: "Arial", fontSize: "1.2rem" }}>SULTANATE OF OMAN | REPUBLIC OF INDIA</h3>
           </div>
         </div>
         <div className="col-md-6 col-12 m-0 p-0 py-1">
@@ -206,18 +206,18 @@ export default function Home() {
           are bringing out new technologies that are both sustainable and
           affordable to the millions who consume them or make a commodity of
           them. */}
-          
-          
-          This conference is conducted jointly by CHRIST (Deemed to be University), 
-          Bangalore, India, and Modern College of Business and Science, Muscat, Oman. 
-          It would provide an opportunity to spotlight research ideas to an international 
-          community as well as be a platform to get abreast on the latest trends in the field 
-          of Business and Computing Sciences. In the last three decades, numerous technologies 
-          have surfaced replacing the older ones and also getting themselves replaced rapidly, 
-          while on the other hand, alternate technologies with competitive affordability also 
-          have been produced swiftly. Therefore, the challenge for new technology is its 
+
+
+          This conference is conducted jointly by CHRIST (Deemed to be University),
+          Bangalore, India, and Modern College of Business and Science, Muscat, Oman.
+          It would provide an opportunity to spotlight research ideas to an international
+          community as well as be a platform to get abreast on the latest trends in the field
+          of Business and Computing Sciences. In the last three decades, numerous technologies
+          have surfaced replacing the older ones and also getting themselves replaced rapidly,
+          while on the other hand, alternate technologies with competitive affordability also
+          have been produced swiftly. Therefore, the challenge for new technology is its
           sustainability and affordability. This conference aims in exploring research outputs
-           that are bringing out new technologies that are both sustainable and affordable to 
+           that are bringing out new technologies that are both sustainable and affordable to
            the millions who consume them or make a commodity of them.{" "}
         </p>
         <p style={{ textAlign: "justify" }}>
@@ -228,15 +228,15 @@ export default function Home() {
           establish research or business relations as well as to find
           international linkage for future collaborations in their career path. */}
 
-          It aims to offer an international platform for academicians, 
-          researchers, engineers, entrepreneurs, industry experts, and budding 
+          It aims to offer an international platform for academicians,
+          researchers, engineers, entrepreneurs, industry experts, and budding
           research scholars around the world to share their research findings with
-          global experts. Such a gathering will also help the delegates to establish 
-          research or business relations as well as to find international linkage for 
+          global experts. Such a gathering will also help the delegates to establish
+          research or business relations as well as to find international linkage for
           future collaborations in their career path.
 
         </p>
-      
+
         <p style={{ textAlign: "justify", paddingBottom: "20px" }}>
           {/* This Conference will be carried out in a hybrid format, allowing
           world-scattered researchers, academicians, business and industry
@@ -245,10 +245,10 @@ export default function Home() {
           Business and Science, Muscat, Oman and CHRIST (Deemed to be
           University), Bangalore, India. */}
 
-          This Conference will be carried out in a hybrid format, allowing world-scattered 
-          researchers, academicians, business and industry professionals, and policymakers 
-          to participate in this Conference. There will be two venues for the conference; 
-          Modern College of Business and Science, Muscat, Oman, and CHRIST (Deemed to be University), 
+          This Conference will be carried out in a hybrid format, allowing world-scattered
+          researchers, academicians, business and industry professionals, and policymakers
+          to participate in this Conference. There will be two venues for the conference;
+          Modern College of Business and Science, Muscat, Oman, and CHRIST (Deemed to be University),
           Bangalore, India.
           {" "}
         </p>
@@ -273,7 +273,7 @@ export default function Home() {
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4">20 February 2023</h5>
+              <h5 className="mt-4">27 February 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">

@@ -68,6 +68,9 @@ export default function Registration() {
                             <p style={{ fontFamily: "Nunito" }}>
                                 Applied and awaiting for Springer's confirmation <br />
                                 Will be updated shortly.
+                                <br /><br />
+                                Submission should not exceed 8 to 13 pages <br />
+                                Based on the recommendation of reviewers the paper will be published in UGC/Springer's CCIS (SCOPUS indexed)
                                 {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
                                 <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
                             </p>
