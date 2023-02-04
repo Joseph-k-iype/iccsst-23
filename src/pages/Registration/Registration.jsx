@@ -56,10 +56,11 @@ export default function Registration() {
                     <div className="col-6 m-0 p-4">
                         <h2>Registration fee includes</h2>
                         <ul>
+                            <li>Publication in UGC Journal/*Springer (SCOPUS indexed)</li>
                             <li>Participation in all sessions of the conference</li>
-                            <li>Hardcopy of Conference Proceedings</li>
-                            <li>Lunch and Refreshment</li>
                             <li>Paper presentation certificate</li>
+                            <li>Softcopy of Book of Abstract</li>
+                            <li>Lunch and Refreshments</li>
                         </ul>
                     </div>
                 </div>
