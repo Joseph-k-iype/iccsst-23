@@ -120,7 +120,7 @@ export default function Contact() {
           <div>
             <br />
             <br />
-            <p style={{ fontSize: "1.2rem" }}>Christ (Deemed to be University)
+            <p style={{ fontSize: "1.2rem" }}>CHRIST (Deemed to be University)
             <br />
               <br />
             Address:
