@@ -9,7 +9,10 @@
 @media (max-width: 400px) {
   .media-query{
     display: none;
-  }
+	}
+	.fontControl{
+		font-size: 15px;
+	}
 }
 
 .nk-btn {

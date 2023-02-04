@@ -120,7 +120,7 @@ export default function Contact() {
           <div>
             <br />
             <br />
-            <p style={{ fontSize: "1.2rem" }}>Christ Deemed to be University
+            <p style={{ fontSize: "1.2rem" }}>Christ (Deemed to be University)
             <br />
               <br />
             Address:
@@ -132,7 +132,8 @@ export default function Contact() {
               <br />
             Contact:
             <br />
-            Dr. Chandra J - +91 98863 06307
+            Dr. Chandra J - +91 98863 06307 <br />
+            Dr. Joseph Mani - +96 82458 3566
             </p>
           </div>
           <div className="col-10" style={{ fontFamily: "Nunito" }}>

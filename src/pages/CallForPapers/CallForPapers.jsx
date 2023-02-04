@@ -111,44 +111,44 @@ export default function CallForPapers() {
         >
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4">
+              <h5 className="mt-4 fontControl">
                 Last date for submission of Full Length paper
               </h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4">27 February 2023</h5>
+              <h5 className="mt-4 fontControl">27 February 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4">Date for Acceptance Notification</h5>
+              <h5 className="mt-4 fontControl">Date for Acceptance Notification</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4">15 March 2023</h5>
+              <h5 className="mt-4 fontControl">15 March 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4">Last date for Camera Ready paper</h5>
+              <h5 className="mt-4 fontControl">Last date for Camera Ready paper</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4">15 April 2023</h5>
+              <h5 className="mt-4 fontControl">15 April 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4">Date for Registration</h5>
+              <h5 className="mt-4 fontControl">Date for Registration</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4">01 May 2023</h5>
+              <h5 className="mt-4 fontControl">01 May 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4">Conference Date</h5>
+              <h5 className="mt-4 fontControl">Conference Date</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4"> 08 & 09th May 2023</h5>
+              <h5 className="mt-4 fontControl"> 08 & 09th May 2023</h5>
             </div>
           </div>
         </div>
