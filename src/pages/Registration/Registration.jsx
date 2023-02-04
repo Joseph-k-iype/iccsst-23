@@ -42,12 +42,12 @@ export default function Registration() {
                 <div className="row m-0 p-0">
                     <div className="col-6 m-0 p-4">
                         <h2>Registration Fee</h2>
-                        <b><h4>Paper Presenters</h4></b>
+                        <h4 className="fw-bold">Paper Presenters</h4>
                         <ul>
                             <li>Academicians and Industry Persons - ₹3500 (Indian Authors) / $60 (International Authors)</li>
 
                         </ul>
-                        <b><h4>Attendees</h4></b>
+                        <h4 className="fw-bold">Attendees</h4>
                         <ul>
                             <li>PhD Scholars - ₹1000 / $14</li>
                             <li>UG/PG - ₹500 / $7</li>

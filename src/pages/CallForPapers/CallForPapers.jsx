@@ -56,10 +56,10 @@ export default function CallForPapers() {
 
         <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
           {/* <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." /> */}
-          <h3>Paper Submission Templates</h3>
+          <h3>Paper Submission Template</h3>
           <p style={{ fontFamily: "Nunito" }}>
-            Submission should not exceed 8 to 13 pages <br />
-                                Based on the recommendation of reviewers the paper will be published in UGC/Springer's CCIS (SCOPUS indexed)
+            Your paper should be in the range of 8 to 13 pages <br />
+            Based on the recommendation of reviewers the paper will be published in UGC/Springer's CCIS (SCOPUS indexed)
                                 {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
                                 <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
           </p>
@@ -73,6 +73,16 @@ export default function CallForPapers() {
             > */}
                Download Template
               {/* </div> */}
+            </a>
+          </button>
+        </div>
+
+        <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
+          <br />
+          <h3>Paper Submission</h3>
+          <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
+            <a href="https://easychair.org/conferences/?conf=iccsst2023" style={{ textDecoration: "none", color: "white" }}>
+              EasyChair
             </a>
           </button>
         </div>
