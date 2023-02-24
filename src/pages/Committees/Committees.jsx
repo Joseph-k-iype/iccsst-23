@@ -647,7 +647,7 @@ export default function Committees() {
                 })}
               </div>
 
-              <h2 className="p-2">Advisory/Review Committee</h2>
+              <h2 className="p-2">Advisory/Technical Committee</h2>
               <div className="row m-0 px-0 justify-content-center">
                 {adv_rev_com.map((y) => {
                   return (
