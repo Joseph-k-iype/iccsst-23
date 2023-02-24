@@ -56,15 +56,45 @@ export default function Registration() {
                     <div className="col-6 m-0 p-4">
                         <h2>Registration fee includes</h2>
                         <ul>
-                            <li>Publication in UGC Journal/*Springer (SCOPUS indexed)</li>
+                            <li>Publication in UGC Journal / Springer (SCOPUS indexed)</li>
                             <li>Participation in all sessions of the conference</li>
                             <li>Paper presentation certificate</li>
                             <li>Softcopy of Book of Abstract</li>
                             <li>Lunch and Refreshments</li>
+                            <li>Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number</li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <div className='row m-0 mt-5 p-0 align-items-center '>
+                <div className="col-md-12 col-12 m-0 p-0">
+                    <div className="row m-0 p-0">
+                        <div className="col-md-12 col-12 m-0 p-4  h-100 justify-content-center align-items-center text-center" id="subscribe">
+                            <h3 className="justify-content-center align-items-center text-center"> Author's Instruction</h3><br />
+                            <p style={{ fontFamily: "Nunito" }}>
+                                Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
+                            <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
+                                <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" style={{ textDecoration: "none", color: "white" }}>
+                                    Template
+                                </a>
+                            </button>
+                        </div>
+
+                        <p className="text-center" style={{ fontFamily: "Nunito" }}><h5>Abstracted & Indexed In</h5>
+                        DBLP<br />
+                        EI Compendex<br />
+                        INSPEC<br />
+                        Japanese Science and Technology Agency (JST)<br />
+                        Norwegian Register for Scientific Journals and Series<br />
+                        SCImago<br />
+                        SCOPUS<br />
+                        zbMATH<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+
 
             <div className='row m-0 mt-5 p-0 align-items-center '>
                 <div className="col-md-12 col-12 m-0 p-0">

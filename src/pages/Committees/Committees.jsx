@@ -319,6 +319,12 @@ export default function Committees() {
       college: "Singidunum University",
       place: "Serbia",
     },
+    {
+      name: "Dr. Venkata Subramanian D",
+      desg: "Department of Computer Science",
+      college: "CHRIST (Deemed to be University)",
+      place: "Bangalore, India",
+    },
   ];
 
   let webBroBanPos = [
@@ -500,6 +506,11 @@ export default function Committees() {
     },
     {
       name: "Dr Prabu P",
+      desg: "Department of Computer Science",
+      college: "CHRIST (Deemed to be University)",
+    },
+    {
+      name: "Dr. Venkata Subramanian D",
       desg: "Department of Computer Science",
       college: "CHRIST (Deemed to be University)",
     },

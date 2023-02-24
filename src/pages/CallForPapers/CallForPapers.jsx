@@ -49,6 +49,7 @@ export default function CallForPapers() {
               <br />
               <br />
               The objective of this Conference is to provide opportunities for collaboration and reflection enhancing the ability of applying Information Technology for sustainability. This Conference provide a unique forum for the academicians, researchers, technocrats and industry experts to exchange ideas and experience on research problems of recent advancements in the field of Computer Science.
+              It is planned to publish the proceedings  with Springer in their Communications in Computer and Information Science series (final approval pending).
             </p>
 
           </div>
@@ -59,7 +60,7 @@ export default function CallForPapers() {
           <h3>Paper Submission Template</h3>
           <p style={{ fontFamily: "Nunito" }}>
             Your paper should be in the range of 8 to 13 pages. <br />
-            Based on the recommendation of reviewers the paper will be published in UGC/Springer's CCIS (SCOPUS indexed).
+            Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number
                                 {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
                                 <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
           </p>
@@ -86,6 +87,31 @@ export default function CallForPapers() {
               EasyChair
             </a>
           </button>
+        </div>
+
+        <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
+          <br />
+          <h3>Author's Instruction</h3>
+          <p style={{ fontFamily: "Nunito" }}>Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
+          <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
+            <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" style={{ textDecoration: "none", color: "white" }}>
+              Template
+            </a>
+          </button>
+          <br /><br />
+          <p style={{ fontFamily: "Nunito" }}>Abstracted and Indexed in:
+          <ul>
+              <li>DBLP</li>
+              <li>EI Compendex</li>
+              <li>INSPEC</li>
+              <li>Japanese Science and Technology Agency (JST)</li>
+              <li>Norwegian Register for Scientific Journals and Series</li>
+              <li>SCImago</li>
+              <li>SCOPUS</li>
+              <li>zbMATH</li>
+            </ul>
+          </p>
+
         </div>
 
         <div className="row m-0 p-0 ">
