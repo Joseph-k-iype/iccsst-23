@@ -57,9 +57,9 @@ export default function CallForPapers() {
 
         <br />
         <br />
-        <div className="container-fluid">
+        <div className="container-fluid ">
           <div className="col-md-11 col-11 m-0 p-0 bg-white h-100 ">
-            <div className="row m-0 p-0 mt-5">
+            <div className="row m-0 p-0 mt-5 separate">
               <div className="col-6 m-0 p-3">
                 <h3>Paper Submission Template</h3>
 
@@ -79,7 +79,7 @@ export default function CallForPapers() {
                 <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
                   <a href="https://easychair.org/conferences/?conf=iccsst2023" style={{ textDecoration: "none", color: "white" }}>
                     EasyChair
-            </a>
+                  </a>
                 </button>
               </div>
             </div>

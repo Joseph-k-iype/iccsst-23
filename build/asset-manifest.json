@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.903574ce.css",
-    "main.js": "/static/js/main.9600b9da.js",
+    "main.css": "/static/css/main.1862323c.css",
+    "main.js": "/static/js/main.bc3ed998.js",
     "static/media/MCBS_Logo.png": "/static/media/MCBS_Logo.002fa13ba56822a6cfcb.png",
     "static/media/CaslonBold.ttf": "/static/media/CaslonBold.55e210e1518e1c66fea3.ttf",
     "static/media/person1.png": "/static/media/person1.f40da0ab574f62a10cf0.png",
@@ -13,11 +13,11 @@
     "static/media/bg.svg": "/static/media/bg.77eeeff0e4017dd1813c863120ead415.svg",
     "index.html": "/index.html",
     "static/media/callpapers.svg": "/static/media/callpapers.f4125c8b61e85eaf087cd298e87abace.svg",
-    "main.903574ce.css.map": "/static/css/main.903574ce.css.map",
-    "main.9600b9da.js.map": "/static/js/main.9600b9da.js.map"
+    "main.1862323c.css.map": "/static/css/main.1862323c.css.map",
+    "main.bc3ed998.js.map": "/static/js/main.bc3ed998.js.map"
   },
   "entrypoints": [
-    "static/css/main.903574ce.css",
-    "static/js/main.9600b9da.js"
+    "static/css/main.1862323c.css",
+    "static/js/main.bc3ed998.js"
   ]
 }

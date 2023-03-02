@@ -202,7 +202,14 @@ h3 {
   }
   .no-mob{
     display: none;
-  }
+	}
+	.separate{
+		display: flex;
+		/* align-items: flex-start; */
+		width: 600px;
+		flex-direction: column;
+		text-align: justify;
+	}
 }
 
 .nk-shadow{
