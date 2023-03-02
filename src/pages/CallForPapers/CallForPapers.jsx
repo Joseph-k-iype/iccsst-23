@@ -27,7 +27,7 @@ export default function CallForPapers() {
             <br />
             <br />
           </div>
-          <div className="col-10 text-justify" style={{ fontFamily: "Nunito" }}>
+          <div className="col-12 text-justify" style={{ fontFamily: "Nunito" }}>
             <p>
               {/* The First International Conference on Computational
               Science and Sustainable Technologies (ICCSST 2023) will be held
@@ -55,28 +55,35 @@ export default function CallForPapers() {
           </div>
         </div>
 
+        <br />
+        <br />
+        <div className="container-fluid">
+          <div className="col-md-11 col-11 m-0 p-0 bg-white h-100 ">
+            <div className="row m-0 p-0 mt-5">
+              <div className="col-6 m-0 p-3">
+                <h3>Paper Submission Template</h3>
 
-
-        <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
-          <h3>Paper Submission Template</h3>
-          <div className="container-fluid">
-            <div className="row m-0 p-0">
-              <div className="col-6 m-0 p-0">
                 <p style={{ fontFamily: "Nunito" }}>Your paper should be in the range of 8 to 13 pages.</p>
-              </div>
-              <div className="col-6 m-0 p-0">
                 <p style={{ fontFamily: "Nunito" }}>
                   Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number.
                 </p>
+                <button className="btn btn-primary " style={{ fontFamily: "Nunito" }}>
+                  <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}>
+                    Download Template
+              </a>
+                </button>
+              </div>
+              <div className="col-6 m-0 p-3 ml-2">
+                <h3>Paper Submission</h3>
+                <p style={{ fontFamily: "Nunito" }}>Click the button to submit your paper.</p>
+                <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
+                  <a href="https://easychair.org/conferences/?conf=iccsst2023" style={{ textDecoration: "none", color: "white" }}>
+                    EasyChair
+            </a>
+                </button>
               </div>
             </div>
-            <div class="d-flex justify-content-center">
-              <button className="btn btn-primary " style={{ fontFamily: "Nunito" }}>
-                <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}>
-                  Download Template
-              </a>
-              </button>
-            </div>
+
           </div>
         </div>
 
@@ -103,18 +110,8 @@ export default function CallForPapers() {
           </button>
         </div> */}
 
-        <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
-          <br />
-          <h3>Paper Submission</h3>
-          <p style={{ fontFamily: "Nunito" }}>Click the button to submit your paper.</p>
-          <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
-            <a href="https://easychair.org/conferences/?conf=iccsst2023" style={{ textDecoration: "none", color: "white" }}>
-              EasyChair
-            </a>
-          </button>
-        </div>
 
-        <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
+        <div className="col-md-12 col-12 m-0 p-3 bg-white h-100 ">
           <br />
           <h3>Author's Instruction</h3>
           <p style={{ fontFamily: "Nunito" }}>Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
