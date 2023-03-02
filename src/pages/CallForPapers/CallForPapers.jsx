@@ -27,7 +27,7 @@ export default function CallForPapers() {
             <br />
             <br />
           </div>
-          <div className="col-10" style={{ fontFamily: "Nunito" }}>
+          <div className="col-10 text-justify" style={{ fontFamily: "Nunito" }}>
             <p>
               {/* The First International Conference on Computational
               Science and Sustainable Technologies (ICCSST 2023) will be held
@@ -55,28 +55,53 @@ export default function CallForPapers() {
           </div>
         </div>
 
+
+
         <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
-          {/* <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." /> */}
           <h3>Paper Submission Template</h3>
+          <div className="container-fluid">
+            <div className="row m-0 p-0">
+              <div className="col-6 m-0 p-0">
+                <p style={{ fontFamily: "Nunito" }}>Your paper should be in the range of 8 to 13 pages.</p>
+              </div>
+              <div className="col-6 m-0 p-0">
+                <p style={{ fontFamily: "Nunito" }}>
+                  Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button className="btn btn-primary " style={{ fontFamily: "Nunito" }}>
+                <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}>
+                  Download Template
+              </a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
+          {/* <img className="m-0 w-100 justify-content-end media-query" src={i1} alt="..." /> */}
+        {/* <h3>Paper Submission Template</h3>
           <p style={{ fontFamily: "Nunito" }}>
             Your paper should be in the range of 8 to 13 pages. <br />
-            Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number
-                                {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
+            Depending on the reviewers comments accepted papers will be recommended for Springer CCIS (Scopus Indexed) / Mapana Journal of science (UGC care list - Group I) / proceeding with ISBN number */}
+        {/* <br /><a href="conference-template.docx" download>Paper Template - DOCUMENT FORMAT (.DOC)</a>
                                 <br /><a href="conference-latex-template.zip" download>Paper Template - LATEX FORMAT (.ZIP)</a> */}
-          </p>
+        {/* </p>
           <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
-            <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}>
+            <a href="https://templateiccsst.s3.ap-south-1.amazonaws.com/template.docx" style={{ textDecoration: "none", color: "white" }}> */}
 
-              {/* <div
+        {/* <div
               className="nk-blue-bg p-3 justify-content-center align-items-center nk-btn"
               style={{ fontFamily: "Nunito" }}
 
             > */}
-               Download Template
-              {/* </div> */}
-            </a>
+        {/* Download Template */}
+        {/* </div> */}
+        {/* </a>
           </button>
-        </div>
+        </div> */}
 
         <div className="col-md-12 col-12 m-0 p-0 bg-white h-100 ">
           <br />
@@ -95,7 +120,7 @@ export default function CallForPapers() {
           <p style={{ fontFamily: "Nunito" }}>Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
           <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
             <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" style={{ textDecoration: "none", color: "white" }}>
-              Template
+              Guidelines
             </a>
           </button>
           <br /><br />

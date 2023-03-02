@@ -16,7 +16,7 @@ export default function KeynoteSpeakers() {
           <div>
             <br />
             <br />
-            <h1>Keynote Spearkers</h1>
+            <h1>Keynote Speakers</h1>
             <br />
             <br />
           </div>

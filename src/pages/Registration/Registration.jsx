@@ -76,7 +76,7 @@ export default function Registration() {
                                 Particularly we would like to ask the authors to apply Springer conference paper templates, which can be find in the below button</p>
                             <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
                                 <a href="http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0" style={{ textDecoration: "none", color: "white" }}>
-                                    Template
+                                    Guidelines
                                 </a>
                             </button>
                         </div>

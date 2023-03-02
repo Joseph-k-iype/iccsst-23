@@ -209,7 +209,11 @@ h3 {
   box-shadow: .2rem .2rem gray;
 }
 
+/*justify content */
 
+.text-justify {
+  text-align: justify;
+}
 
 
 
