@@ -205,7 +205,6 @@ h3 {
 	}
 	.separate{
 		display: flex;
-		/* align-items: flex-start; */
 		width: 600px;
 		flex-direction: column;
 		text-align: justify;

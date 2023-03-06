@@ -77,8 +77,8 @@ export default function CallForPapers() {
                 <h3>Paper Submission</h3>
                 <p style={{ fontFamily: "Nunito" }}>Click the button to submit your paper.</p>
                 <button className="btn btn-primary" style={{ fontFamily: "Nunito" }}>
-                  <a href="https://easychair.org/conferences/?conf=iccsst2023" style={{ textDecoration: "none", color: "white" }}>
-                    EasyChair
+                  <a href="https://cmt3.research.microsoft.com/ICCSST2023/" style={{ textDecoration: "none", color: "white" }}>
+                    Submit your paper here
                   </a>
                 </button>
               </div>
