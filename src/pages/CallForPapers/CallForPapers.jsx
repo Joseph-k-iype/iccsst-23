@@ -80,7 +80,8 @@ export default function CallForPapers() {
                   <a href="https://cmt3.research.microsoft.com/ICCSST2023/" style={{ textDecoration: "none", color: "white" }}>
                     Submit your paper here
                   </a>
-                </button>
+                </button><br /><br />
+                <p style={{ fontFamily: "Nunito" }}>Submit your paper by clicking the above button (Microsoft CMT) or mail it to iccsst@conference.christuniversity.in</p>
               </div>
             </div>
 
