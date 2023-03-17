@@ -278,18 +278,18 @@ export default function Home() {
           </div>
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4 fontControl">Date for Acceptance Notification</h5>
+              <h5 className="mt-4 fontControl">Review Submission</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">20 March 2023</h5>
+              <h5 className="mt-4 fontControl">15 April 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
             <div className="col m-0 p-0">
-              <h5 className="mt-4 fontControl">Last date for Camera Ready paper</h5>
+              <h5 className="mt-4 fontControl">Author Notification</h5>
             </div>
             <div className="col m-0 p-0 text-end">
-              <h5 className="mt-4 fontControl">15 April 2023</h5>
+              <h5 className="mt-4 fontControl">20 April 2023</h5>
             </div>
           </div>
           <div className="row m-0 p-4 align-items-center">
