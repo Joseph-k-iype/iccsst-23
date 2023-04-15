@@ -75,7 +75,6 @@ export default function Contact() {
                     alert("Please enter a valid name.");
                     return;
                   }
-
                   if (
                     !email.match(
                       "^[\\w-\\.+]*[\\w-\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$"
@@ -113,7 +112,6 @@ export default function Contact() {
         </div>
 
 
-
       </div>
       <div className="row m-3 p-2 align-items-center " id="mainpage">
         <div className="col-md-7  mt-5  col-12 m-0 p-0">
@@ -137,7 +135,6 @@ export default function Contact() {
             </p>
           </div>
           <div className="col-10" style={{ fontFamily: "Nunito" }}>
-
           </div>
         </div>
 
