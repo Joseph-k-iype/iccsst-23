@@ -12,6 +12,7 @@ import { scroller } from "react-scroll";
 import oman from "../../assets/MCBS_Logo.png";
 import bg from "../../assets/bg.svg";
 import si from "../../assets/callpapers.svg";
+import poster from "../../assets/poster.png";
 // import oman from "../../assets/OMAN.png";
 
 export default function Home() {
@@ -81,7 +82,10 @@ export default function Home() {
               className="align-text-top img-fluid"
             />
             {/* <img src={oman} alt="..."  width="208" className="align-text-top oman" /> */}
-
+          </div>
+          <div className="col">
+            <marquee className="font-weight-bold"
+              style={{ fontFamily: "Nunito", fontWeight: "600", fontSize: "1.3rem", color: "nk-blue-bg" }}>Results for Review Submission were Published on April 21, 2023</marquee>
           </div>
           <div className="col text-end ">
             <img
@@ -99,7 +103,7 @@ export default function Home() {
           >
             ICCSST - 2023 <br />
             <div style={{ marginTop: "1rem" }}>
-              <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem" }}>INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
+              <span style={{ fontWeight: "600", fontSize: "1.7rem", marginTop: "1rem", color: "nk-blue-bg" }}>INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES
             AND SUSTAINABLE TECHNOLOGIES</span></div>
           </h1>
           <div style={{ marginTop: "1rem" }}>
@@ -527,6 +531,24 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Poster */}
+      <div>
+        <div className="p-4"></div>
+        <div
+          id="experts"
+          className="row m-0 p-0 align-items-center "
+        // style={{ height: "14rem" }}
+        >
+          <img
+            src={poster}
+            alt="Poster"
+            className="align-text-top img-fluid center"
+            style={{ width: "600px" }}
+          />
+
+        </div>
+      </div>
+
       {/* keynote speakers */}
       <div>
         <div className="p-4"></div>
@@ -577,59 +599,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <div
-          className="row m-0 mt-5 p-0 align-items-center "
-          // style={{ height: "14rem" }}
-        >
-          <div className="col-md-9 col-12 m-0 p-0">
-            <div className="row m-0 p-0">
-              <div className="col-md-3 col m-0 p-4 text-light nk-bg-7 h-100">
-                <h5>Dr. Subhrabrata Choudhury</h5>
-                <p>
-                  Professor, <br />
-                  Department of Computer Science & Engineering
-                  <br />
-                  National Institute of Technology, Durgapur, West Bengal
-                  <br />
-                </p>
-              </div>
-              <div className="col-md-3 col m-0 p-4 text-light nk-bg-8 h-100">
-                <h5>Dr. Dilip Kumar Yadav</h5>
-                <p>
-                  Professor,
-                  <br />
-                  Dept. of Computer Applications
-                  <br />
-                  National Institute of Technology, Jamshedpur
-                </p>
-              </div>
-              <div className="col-md-3 col m-0 p-4 text-light nk-bg-1 h-100">
-                <h5>Dr. Somashekhar S. Hiremath </h5>
-                <p>
-                  Associate Professor
-                  <br />
-                  Manufacturing Engineering Section
-                  <br />
-                  Department of Mechanical Engineering, IIT Madras
-                </p>
-              </div>
-              <div className="col-md-3 col m-0 p-4 text-light nk-bg-11 h-100">
-                <h5>Dr. Saroj Kr. Biswas</h5>
-                <p>
-                  Assistant Professor, (Grade I)
-                  <br />
-                  Department of Computer Science & Engineering
-                  <br />
-                  National Institute of Technology, Silchar
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-12 m-0 p-0 text-center">
-            <h3>National</h3>
-          </div>
-        </div> */}
       </div>
+
     </div>
   );
 }
