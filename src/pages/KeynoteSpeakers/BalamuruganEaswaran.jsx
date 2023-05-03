@@ -2,9 +2,7 @@ import React from 'react'
 import person1 from "../../assets/person3.jpg";
 export default function BalamuruganEaswaran() {
   return (
-
     <>
-
       <div class="container-fluid">
         <div class="row align-items-center justify-content-center p-5">
           <div class="col-md-3 col-12"><img src={person1} alt="" class="img-fluid" style={{ borderRadius: "50%", height: "290px", width: "300px" }} /></div>

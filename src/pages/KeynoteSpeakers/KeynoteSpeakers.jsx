@@ -75,7 +75,7 @@ export default function KeynoteSpeakers() {
                 navigate(path);
               }}
             >
-              <img class="card-img-top" src={person3} style={{ height: "312px" }} alt="Card image cap" />
+              <img class="card-img-top" src={person3} style={{ height: "330px" }} alt="Card image cap" />
               <div class="card-body">
                 <h5 class="card-title">Dr Balamurugan Easwaran</h5>
                 <p class="card-text">Registrar</p>
