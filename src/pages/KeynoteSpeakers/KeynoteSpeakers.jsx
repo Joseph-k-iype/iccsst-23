@@ -4,9 +4,9 @@ import i1 from "../../assets/callpapers.svg";
 import { scroller } from "react-scroll";
 
 import { useLocation } from "react-router-dom";
-import person1 from "../../assets/person1.png";
-import person2 from "../../assets/person2.png";
-import person3 from "../../assets/person3.png";
+import person1 from "../../assets/person1.jpg";
+import person2 from "../../assets/person2.jpg";
+import person3 from "../../assets/person3.jpg";
 export default function KeynoteSpeakers() {
   let navigate = useNavigate();
   return (
@@ -33,16 +33,16 @@ export default function KeynoteSpeakers() {
               class="card h-100"
               id="key"
               onClick={(e) => {
-                let path = `/DharmSinghJat`;
+                let path = `/BharaniPJaganMohan`;
                 navigate(path);
               }}
             >
               <img class="card-img-top" src={person1} alt="Card image cap" />
               <div class="card-body">
-                <h5 class="card-title">Prof. Dharm Singh Jat</h5>
-                <p class="card-text">Professor</p>
+                <h5 class="card-title">Mr. Bharani P Jagan Mohan</h5>
+                <p class="card-text">Manager </p>
                 <p class="card-text">
-                  Namibia University of Science and Technology (NUST)
+                  Seagen
                 </p>
               </div>
             </div>
@@ -53,15 +53,15 @@ export default function KeynoteSpeakers() {
               class="card h-100"
               id="key"
               onClick={(e) => {
-                let path = `/MohammadSKhan`;
+                let path = `/PravinHungund`;
                 navigate(path);
               }}
             >
               <img class="card-img-top" src={person2} alt="Card image cap" />
               <div class="card-body">
-                <h5 class="card-title">Dr. Mohammad S. Khan</h5>
-                <p class="card-text">Assistant Professor</p>
-                <p class="card-text">East Tennessee State University</p>
+                <h5 class="card-title">Mr. Pravin Hungund</h5>
+                <p class="card-text">Chief Technology Officer</p>
+                <p class="card-text">Metaz Digital</p>
               </div>
             </div>
           </div>
@@ -71,15 +71,15 @@ export default function KeynoteSpeakers() {
               class="card h-100"
               id="key"
               onClick={(e) => {
-                let path = `/MarioJoseDivan`;
+                let path = `/BalamuruganEaswaran`;
                 navigate(path);
               }}
             >
-              <img class="card-img-top" src={person3} alt="Card image cap" />
+              <img class="card-img-top" src={person3} style={{ height: "312px" }} alt="Card image cap" />
               <div class="card-body">
-                <h5 class="card-title">Prof. Dr. Mario Jose Divan</h5>
-                <p class="card-text">Sr. Solutions Architect</p>
-                <p class="card-text">Intel</p>
+                <h5 class="card-title">Dr Balamurugan Easwaran</h5>
+                <p class="card-text">Registrar</p>
+                <p class="card-text">Texila American University, Zambia</p>
               </div>
             </div>
           </div>

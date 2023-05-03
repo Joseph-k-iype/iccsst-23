@@ -1,24 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.2962d952.css",
-    "main.js": "/static/js/main.504e462a.js",
+    "main.js": "/static/js/main.7bb4b215.js",
     "static/media/poster.png": "/static/media/poster.79372bfd1b9e0415460f.png",
     "static/media/MCBS_Logo.png": "/static/media/MCBS_Logo.002fa13ba56822a6cfcb.png",
     "static/media/CaslonBold.ttf": "/static/media/CaslonBold.55e210e1518e1c66fea3.ttf",
-    "static/media/person1.png": "/static/media/person1.f40da0ab574f62a10cf0.png",
-    "static/media/person2.png": "/static/media/person2.001cbdadb77fe2378e09.png",
-    "static/media/person3.png": "/static/media/person3.b2d05409b0ab7c139e53.png",
-    "static/media/mario.png": "/static/media/mario.0ca9d8581449280d9439.png",
-    "static/media/dharma.png": "/static/media/dharma.d35fff59765c708ff4ee.png",
-    "static/media/mohammad.png": "/static/media/mohammad.df858b63be395a8648f8.png",
+    "static/media/person2.jpg": "/static/media/person2.b88d6d97e009991b5540.jpg",
     "static/media/bg.svg": "/static/media/bg.77eeeff0e4017dd1813c863120ead415.svg",
+    "static/media/person1.jpg": "/static/media/person1.ba807a50ca7b716adadb.jpg",
+    "static/media/person3.jpg": "/static/media/person3.b9a626157291c18d5018.jpg",
     "index.html": "/index.html",
     "static/media/callpapers.svg": "/static/media/callpapers.f4125c8b61e85eaf087cd298e87abace.svg",
     "main.2962d952.css.map": "/static/css/main.2962d952.css.map",
-    "main.504e462a.js.map": "/static/js/main.504e462a.js.map"
+    "main.7bb4b215.js.map": "/static/js/main.7bb4b215.js.map"
   },
   "entrypoints": [
     "static/css/main.2962d952.css",
-    "static/js/main.504e462a.js"
+    "static/js/main.7bb4b215.js"
   ]
 }
