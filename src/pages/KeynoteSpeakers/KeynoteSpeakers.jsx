@@ -28,25 +28,6 @@ export default function KeynoteSpeakers() {
       </div>
       <div class="container-fluid" style={{ marginBottom: "30px" }}>
         <div class="row m-0 p-0 justify-content-center">
-          <div class="col-lg-3 col-md-4 col-sm-6 mx-2 my-2 col-12 ">
-            <div
-              class="card h-100"
-              id="key"
-              onClick={(e) => {
-                let path = `/BharaniPJaganMohan`;
-                navigate(path);
-              }}
-            >
-              <img class="card-img-top" src={person1} alt="Card image cap" />
-              <div class="card-body">
-                <h5 class="card-title">Mr. Bharani P Jagan Mohan</h5>
-                <p class="card-text">Manager </p>
-                <p class="card-text">
-                  Seagen
-                </p>
-              </div>
-            </div>
-          </div>
 
           <div class="col-lg-3 col-md-4 col-sm-6 mx-2 my-2 col-12 ">
             <div
@@ -77,12 +58,36 @@ export default function KeynoteSpeakers() {
             >
               <img class="card-img-top" src={person3} style={{ height: "330px" }} alt="Card image cap" />
               <div class="card-body">
-                <h5 class="card-title">Dr Balamurugan Easwaran</h5>
-                <p class="card-text">Registrar</p>
-                <p class="card-text">Texila American University, Zambia</p>
+                <h5 class="card-title">Dr. Zahid Akhtar</h5>
+                <p class="card-text">State University of New York Polytechnic Institute C135</p>
+                <p class="card-text">USA</p>
               </div>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mx-2 my-2 col-12 ">
+            <div
+              class="card h-100"
+              id="key"
+              onClick={(e) => {
+                let path = `/BharaniPJaganMohan`;
+                navigate(path);
+              }}
+            >
+              <img class="card-img-top" src={person1} alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Mr. Bharani P Jagan Mohan</h5>
+                <p class="card-text">Manager </p>
+                <p class="card-text">
+                  Seagen
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
         </div>
       </div>
     </>

@@ -11,6 +11,8 @@ export default function BharaniPJaganMohan() {
                         <h2>Mr. Bharani P Jagan Mohan</h2>
                         <p style={{ fontFamily: "Nunito" }}>Manager</p>
                         <p style={{ fontFamily: "Nunito" }}>Seagen</p>
+                        <p style={{ fontFamily: "Nunito", fontWeight: "bold" }}>Day 2</p>
+                        <p style={{ fontFamily: "Nunito" }}>Content Management in Life Sciences</p>
                     </div>
                 </div>
             </div>

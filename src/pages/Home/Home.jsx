@@ -565,6 +565,24 @@ export default function Home() {
             style={{ fontFamily: "Nunito" }}
           >
             <div className="row m-0 p-0">
+              <div className="col-md-4 col m-0 p-4 text-light nk-bg-4 h-105">
+                <h5>Mr. Pravin Hungund</h5>
+                <p>
+                  Chief Technology Officer <br />
+                  Metaz Digital <br />
+                  {/* Email: adhoc.khan@gmail.com */}
+                </p>
+              </div>
+
+              <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
+                <h5>Dr. Zahid Akhtar</h5>
+                <p>
+                  State University of New York Polytechnic Institute C135<br />
+                  USA<br />
+                  {/* Email: mario.jose.divan.koller@intel.com  */}
+                </p>
+              </div>
+
               <div className="col-md-4 col m-0 p-4 text-light nk-bg-3 h-105">
                 <h5>Mr. Bharani P Jagan Mohan</h5>
                 <p>
@@ -576,22 +594,8 @@ export default function Home() {
                   {/* Email: dsingh@nust.na */}
                 </p>
               </div>
-              <div className="col-md-4 col m-0 p-4 text-light nk-bg-4 h-105">
-                <h5>Mr. Pravin Hungund</h5>
-                <p>
-                  Chief Technology Officer <br />
-                  Metaz Digital <br />
-                  {/* Email: adhoc.khan@gmail.com */}
-                </p>
-              </div>
-              <div className="col-md-4 col m-0 p-4 text-light nk-bg-2 h-105">
-                <h5>Dr. Balamurugan Easwaran</h5>
-                <p>
-                  Registrar<br />
-                  Texila American University, Zambia<br />
-                  {/* Email: mario.jose.divan.koller@intel.com  */}
-                </p>
-              </div>
+
+
             </div>
           </div>
         </div>

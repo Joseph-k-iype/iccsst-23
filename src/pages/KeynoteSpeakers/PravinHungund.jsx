@@ -11,6 +11,8 @@ export default function PravinHungund() {
                         <h2>Mr. Pravin Hungund</h2>
                         <p style={{ fontFamily: "Nunito" }}>Chief Technology Officer</p>
                         <p style={{ fontFamily: "Nunito" }}>Metaz Digital</p>
+                        <p style={{ fontFamily: "Nunito", fontWeight: "bold" }}>Day 1</p>
+                        <p style={{ fontFamily: "Nunito" }}>Democratisation of Tech in the Digital world: Can Tech be Fungible - Sustainable Tech vs Technology Sustainability vs Tech for Sustainability</p>
                     </div>
                 </div>
             </div>

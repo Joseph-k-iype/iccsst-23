@@ -7,9 +7,11 @@ export default function BalamuruganEaswaran() {
         <div class="row align-items-center justify-content-center p-5">
           <div class="col-md-3 col-12"><img src={person1} alt="" class="img-fluid" style={{ borderRadius: "50%", height: "290px", width: "300px" }} /></div>
           <div class="mt-3 col-md-6 col-12">
-            <h2>Dr. Balamurugan Easwaran</h2>
-            <p style={{ fontFamily: "Nunito" }}>Registrar</p>
-            <p style={{ fontFamily: "Nunito" }}>Texila American University, Zambia</p>
+            <h2>Dr. Zahid Akhtar</h2>
+            <p style={{ fontFamily: "Nunito" }}>State University of New York Polytechnic Institute C135</p>
+            <p style={{ fontFamily: "Nunito" }}>USA</p>
+            <p style={{ fontFamily: "Nunito", fontWeight: "bold" }}>Day 2</p>
+            <p style={{ fontFamily: "Nunito" }}>AI and User Authentication: Adversarial Attacks and Defenses</p>
           </div>
         </div>
       </div>

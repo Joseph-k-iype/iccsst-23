@@ -181,10 +181,27 @@ export default function Registration() {
 
 
                         </div>
+
+
+                        <div className="col-md-12 col-12 m-0 p-4  h-100 justify-content-center align-items-center text-center" id="subscribe">
+                            <h3 className="justify-content-center align-items-center text-center">ICCSST 2023 Attendee Registration form</h3>
+                            <div class="row  g-3  justify-content-center text-center mt-4">
+                                <p>Kindly click the below button to participate as an attendee in the conference</p>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary"><a style={{ color: "white", textDecoration: "none" }} href="https://forms.gle/2mDnJxcacvLLPXne9">Click Here</a></button>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
 
             </div>
+
+
 
         </>
     )
