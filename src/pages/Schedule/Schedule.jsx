@@ -32,7 +32,7 @@ export default function Schedule() {
               <td className="col-sm-2">09:15 AM - 10:30 AM</td>
               <td className="col-sm-3">KE Auditorium, Block 4, 4th Floor</td>
               <td>Ianuguration</td>
-              <td class="align-middle" rowspan="2" className="col-sm-3"><a style={{ textDecoration: "none" }} href="https://meet.google.com/pjc-hbse-twv?authuser=2">https://meet.google.com/pjc-hbse-twv</a></td>
+              <td rowspan="2" className="col-sm-3 align-middle"><a style={{ textDecoration: "none" }} href="https://meet.google.com/pjc-hbse-twv?authuser=2">https://meet.google.com/pjc-hbse-twv</a></td>
             </tr>
             <tr>
               <td>10:30 AM - 11:00 AM</td>
