@@ -141,7 +141,7 @@ export default function Schedule() {
 
 
 
-      <div class="table-responsive p-4">
+      <div class="table-responsive p-5">
         <div style={{ textAlign: "center", backgroundColor: "#15066b", color: "white" }} class="p-1">
           <b>DAY 2 (09.05.2023)</b>
         </div>
