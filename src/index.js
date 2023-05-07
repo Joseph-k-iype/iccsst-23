@@ -11,6 +11,7 @@ import KeynoteSpeakers from './pages/KeynoteSpeakers/KeynoteSpeakers';
 import PravinHungund from './pages/KeynoteSpeakers/PravinHungund';
 import BalamuruganEaswaran from './pages/KeynoteSpeakers/BalamuruganEaswaran';
 import BharaniPJaganMohan from './pages/KeynoteSpeakers/BharaniPJaganMohan';
+import Schedule from './pages/Schedule/Schedule';
 import Contact from './pages/Contact/Contact';
 // eslint-disable-next-line
 const bootstrapCSS = require("bootstrap/dist/css/bootstrap.css")
@@ -37,6 +38,7 @@ root.render(
         <Route path='/PravinHungund' element={<PravinHungund />} />
         <Route path='/BalamuruganEaswaran' element={<BalamuruganEaswaran />} />
         <Route path='/BharaniPJaganMohan' element={<BharaniPJaganMohan />} />
+        <Route path='/Schedule' element={<Schedule />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/' element={<Home />} />
         <Route path='/' element={<Home />} />

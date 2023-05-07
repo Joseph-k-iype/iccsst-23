@@ -228,6 +228,19 @@ h3 {
   width: 50%;
 }
 
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+ background-color: #f3f1ff;
+}
+
+table.table-bordered > thead > tr > th,
+table.table-bordered > tbody > tr > th,
+table.table-bordered > tbody > tr > td
+{
+	border:2px solid black;
+	padding: 10px;
+}
+
 
 
 

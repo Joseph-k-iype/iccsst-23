@@ -79,28 +79,36 @@ export default function Base({ children }) {
                 </li>
                 <li className="nav-item  px-2">
                   <a className="nav-link" href="#"
-                   onClick={e=>{
-                    navigate("/KeynoteSpeakers")
-                  }}>
+                    onClick={e => {
+                      navigate("/KeynoteSpeakers")
+                    }}>
                     Keynote Speakers
                   </a>
                 </li>
                 <li className="nav-item  px-2">
                   <a className="nav-link" href="#dates"
-                   onClick={e=>{
-                    navigate("/dates")
-                  }}>
+                    onClick={e => {
+                      navigate("/dates")
+                    }}>
                     Dates
                   </a>
                 </li>
                 <li className="nav-item  px-2">
+                  <a className="nav-link" href="#dates"
+                    onClick={e => {
+                      navigate("/Schedule")
+                    }}>
+                    Schedule
+                  </a>
+                </li>
+                <li className="nav-item  px-2">
                   <a className="nav-link" href=""
-                   onClick={e=>{
-                    navigate("/contact")
-                  }}>
+                    onClick={e => {
+                      navigate("/contact")
+                    }}>
                     Contact Us
                   </a>
-                </li> 
+                </li>
               </ul>
             </div>
           </div>
@@ -117,7 +125,7 @@ export default function Base({ children }) {
         {children}
       </div>
       <footer className="bg-christ">
-        <div className="p-4 text-center">INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND SUSTAINABLE  
+        <div className="p-4 text-center">INTERNATIONAL CONFERENCE ON COMPUTATIONAL SCIENCES AND SUSTAINABLE
             TECHNOLOGIES (ICCSST - 2023) </div>
       </footer>
     </div>
